@@ -15,7 +15,6 @@ TMRpcm tmrpcm;
 Sd2Card card;
 SdFile root;
 
-
 void setup() {
   Serial.begin(9600);
   tmrpcm.speakerPin = SPEAKER_PIN;
@@ -25,7 +24,6 @@ void setup() {
     return;
   }
   tmrpcm.setVolume(2);
-
 }
 
 void play()
